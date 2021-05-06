@@ -16,7 +16,7 @@ try:
         EC.presence_of_element_located((By.XPATH,  ' //*[@id="login-username"] '))
     )
     element1.click()
-    element1.send_keys("shyambali40@gmail.com")
+    element1.send_keys(your email)
 except:
     
     driver.implicitly_wait(4)
@@ -27,7 +27,7 @@ try:
         EC.presence_of_element_located((By.XPATH,  ' //*[@id="login-password"] '))
     )
     element.click()
-    element.send_keys('9982831397k')
+    element.send_keys(Your password)
 except:
     
     driver.implicitly_wait(4)
