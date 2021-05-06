@@ -18,7 +18,7 @@ uname=driver.find_element_by_xpath('//*[@id="login-username"]')
 uname.click()
 
 
-email_id='shyambali40@gmail.com'
+email_id='your id'
 
 
 uname.send_keys(email_id)
@@ -28,7 +28,7 @@ passw=driver.find_element_by_xpath('//*[@id="login-password"]')
 passw.click()
 
 
-Password='''9982831397k'''
+Password='''Your password'''
 passw.send_keys(Password)
 
 
